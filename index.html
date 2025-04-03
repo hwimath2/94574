@@ -5,197 +5,205 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title id="pageTitle"></title>
   <!-- ======================= 게임 설정 및 문제 데이터 (최상단 배치) ======================= -->
- <script>
+<script>
   /* 게임 설정 및 문제 데이터 */
   const gameConfig = {
     "gameTitle": "2024년 대륜중학교 2-1 중간",
     "defaultScore": 10,
     "bannerURL": "",
-    "randomizeQuestions": true,
+    "randomizeQuestions": false,
     "questions": [
       {
         "id": 1,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/1.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/1.png"
         ],
         "passage": "",
         "answer": "5",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 2,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/2.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/2.png"
         ],
         "passage": "",
         "answer": "4",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 3,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/3.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/3.png"
         ],
         "passage": "",
         "answer": "3",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 4,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/4.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/4.png"
         ],
         "passage": "",
         "answer": "5",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 5,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/5.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/5.png"
         ],
         "passage": "",
         "answer": "2",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 6,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/6.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/6.png"
         ],
         "passage": "",
         "answer": "5",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 7,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/7.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/7.png"
         ],
         "passage": "",
         "answer": "1",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 8,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/8.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/8.png"
         ],
         "passage": "",
         "answer": "4",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 9,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/9.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/9.png"
         ],
         "passage": "",
         "answer": "1",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 10,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/10.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/10.png"
         ],
         "passage": "",
         "answer": "5",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 11,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/11.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/11.png"
         ],
         "passage": "",
         "answer": "1",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 12,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/12.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/12.png"
         ],
         "passage": "",
         "answer": "3",
         "type": "객관식",
-        "score": 10
+        "score": 10,
+        "placeholders": "",
+        "customOptions": ""
       },
       {
         "id": 13,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/13.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/13.png"
         ],
         "passage": "",
-        "answer": "1", // 정답 인덱스 (LaTeX 선택지 중 첫번째)
+        "answer": "2",
         "type": "객관식",
         "score": 10,
-        "customOptions": [
-          "$7x^{2}-4x+12$",
-          "$5x^{2}+6x-10$",
-          "$6x^{2}+x+1$",
-          "$7x^{2}+4x+12$",
-          "$7x^{2}-4x-12$"
-        ]
+        "placeholders": "",
+        "customOptions": ["$6x^2+x+1$", "$7x^2-4x+12$", "$5x^2+6x-10$", "$x^2-5x+11$", "$6x^2-4x+12$"]
       },
       {
         "id": 14,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/14.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/14.png"
         ],
         "passage": "",
-        "answer": "1", // 정답 인덱스 (LaTeX 선택지 중 첫번째)
+        "answer": "3",
         "type": "객관식",
         "score": 10,
-        "customOptions": [
-          "$a^{6}b^{2}$",
-          "$a^{2}b^{6}$",
-          "$a^{3}b^{2}$",
-          "$a^{12}b^{4}$",
-          "$a^{6}b^{4}$"
-        ]
+        "placeholders": "",
+        "customOptions": ["$a^4b^2$", "$a^2b$", "$a^6b^2$", "$a^8b^4$", "$a^4b^4$"]
       },
       {
         "id": 15,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/15.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/15.png"
         ],
         "passage": "",
-        "answer": "22000/3", // 단순 분수 주관식
+        "answer": "22000/3",
         "type": "주관식",
         "score": 10,
-        "placeholders": [
-          "뛴 거리(m)"
-        ]
+        "placeholders": ["철수가 분속 200m로 뛴 최소 거리(m)"],
+        "customOptions": ""
       },
       {
         "id": 16,
         "images": [
-          "https://raw.githubusercontent.com/hwimath2/94574/main/16.png?raw=true"
+          "https://raw.githubusercontent.com/hwimath2/94574/main/16.png"
         ],
         "passage": "",
-        "answer": "3", // 정답 인덱스 (LaTeX 선택지 중 첫번째)
+        "answer": "3",
         "type": "객관식",
         "score": 10,
-        "customOptions": [
-          "$7x^{2}y-x^{2}-2xy$",
-          "$14x^{2}y^{2}-2x^{2}y-4xy^{2}$",
-          "$7xy-x-2y$",
-          "$7xy+x+2y$",
-          "$7xy-x+2y$"
-        ]
+        "placeholders": "",
+        "customOptions": ["$6x^2y^2-4xy^2$", "$8x^2y^2-2x^2y$", "$7xy-x-2y$", "$7xy-x$", "$7xy-2y$"]
       }
     ]
   };
